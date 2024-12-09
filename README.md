@@ -1,6 +1,6 @@
-Pfsense fake WIFI
+Evil Twin WIFI
 
-A Pfsense virtual machine that acts like a free unsecured router and has a Kali machine attached that tries to get unsuspecting people to connect. It then will log where they go and if it can get the hash to their login.
+A Kali virtual machine that uses airgeddon to deploy a evil twin of a wifi router that then stores the data and a python script that then goes through and cateorizes it.
 
 ## Compile/Deploy
 
