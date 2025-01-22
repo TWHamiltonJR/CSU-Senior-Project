@@ -25,8 +25,8 @@ of having sensitive information stolen or changed.
 Project Description:
 ====================
 
-My project will be a fake WIFI set up in the Buc stop that will not be password
-protected and will be left open. The WIFI will be made using pfsense, and it
+My project will be a Evil Twin WIFI set up in the Buc stop that will not be password
+protected and will be left open. The WIFI will be made using Airgeddon hosted on Kali, and it
 will be just a man in the middle using CSU wireless to connect to the internet.
 It will scan for people using non-encrypted websites or trying to see if it can
 store the hash to bypass login and log in without storing any data given to the
@@ -38,26 +38,16 @@ username and password from the packet.
 Proposed Implementation Languages
 =================================
 
-Python will be the primary coding language used in implementing the MitM
-attacker due to its versatility and extensive libraries regarding networking.
+Python will be the primary coding language used in coding to check the file that Airgeddon
+will create and make it easier to read.
 
 Libraries, Packages, Development Kits, etc.
 ===========================================
 
--   Scapy
-
--   PyShark
-
--   Netifaces
-
--   Requests
-
--   OpenSSL
+- Airgeddon
 
 Additional Software/ Equipment Needed
 =====================================
-
--   Pfsense Virtual Machine
 
 -   Kali Virtual Machine
 
@@ -77,11 +67,11 @@ yourself. This project will be for both other's benefit and for my learning.
 Outline of Future Research Efforts
 ==================================
 
--   Launching of both the router and attached machine
+-   Launching of Kali
+
+-   Integration of Kali and Airgeddon
 
 -   Development of programming scripts
-
--   Integration of Pfsense router Kali machine and Python scripts
 
 -   Testing and validation
 
@@ -93,8 +83,6 @@ Schedule
 -   Summer (2024)
 
     -   Take courses on Python
-
-    -   Take courses on Pfsense
 
 -   Fall (2024)
 
@@ -110,9 +98,9 @@ Schedule
 
     -   Week 7-8:
 
-        -   Implement all code into Pfsense and Kali machines
+        -   Implement all code into Kali machine
 
-        -   Testing all code in those machines
+        -   Testing all code
 
     -   Week 9-10:
 
