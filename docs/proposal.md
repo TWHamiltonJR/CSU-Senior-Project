@@ -28,9 +28,8 @@ Project Description:
 My project will be a Evil Twin WIFI set up in the Buc stop that will not be password
 protected and will be left open. The WIFI will be made using Airgeddon hosted on Kali, and it
 will be just a man in the middle using CSU wireless to connect to the internet.
-It will scan for people using non-encrypted websites or trying to see if it can
-store the hash to bypass login and log in without storing any data given to the
-site. It will show how many people are connected to the WIFI and how many use
+It will store the data in a Wireshark file that I can look through and determine if the packets
+are encrypted or not. It will show how many people are connected to the WIFI and how many use
 non-encrypted websites. I will then create a small personal WIFI to make an
 account on a website, log in while using the MitM router, and attempt to get the
 username and password from the packet.
@@ -45,6 +44,7 @@ Libraries, Packages, Development Kits, etc.
 ===========================================
 
 - Airgeddon
+- Wireshark
 
 Additional Software/ Equipment Needed
 =====================================
