@@ -1,7 +1,7 @@
 **Name**: Thomas Hamilton  
 **Major**: Cybersecurity  
 **Minor**: Criminal Justice  
-**Project Advisor**: Sean Hayes  
+**Project Advisor**: Michael O'Neil
 **Expected Graduation Date**: May 2025
 
 Problem Statement:
